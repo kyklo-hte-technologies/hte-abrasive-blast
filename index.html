@@ -2,513 +2,512 @@
 <html>
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <link rel="stylesheet" href="https://media-library.kyklo.tech/widget/styles/kyklo-widgets-common-style.css" type="text/css" />
-  <link rel="stylesheet" href="https://media-library.kyklo.tech/widgets-common-assets/styles/bootstrap.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="/media/styles/hexagons.css">
-  <link rel="stylesheet" type="text/css" href="/media/styles/custom.css">
-  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-  <title>HTE Automation</title>
-  <!-- <link rel="stylesheet" media="all" href="https://shop.htetechnologies.com/assets/storefront/application-908cbf5bce79b04f692fad0de3974d15766822dd546e2a3beb4e5e2d691a6eb7.css"> -->
-  <link rel="stylesheet" media="all" href="/media/styles/kyklo-platform.css">
-  <link rel="stylesheet" media="all" href="/media/styles/kyklo-platform2.css">
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
-  <style type="text/css">
-    .top-bar {
-      background-color: rgb(13, 89, 165);
-    }
-    
-    .footer {
-      border-bottom-color: rgb(13, 89, 165);
-    }
-    
-    .btn-secondary,
-    .btn-sub-primary {
-      background-color: rgb(13, 89, 165) !important;
-      /* important to overwrite BS :hover, hovering effect is done by opacity */
-      border-color: rgb(13, 89, 165) !important;
-      /* important to overwrite BS :hover, hovering effect is done by opacity */
-    }
-    
-    .sidemenu .user-zone {
-      border-top-color: rgb(13, 89, 165);
-    }
-    
-    .sidemenu .btn-user-zone-arrow {
-      border-color: rgb(13, 89, 165);
-    }
-    
-    .plus-minus-input.highlighted.non-zero {
-      border-color: rgb(13, 89, 165);
-      background-color: rgb(13, 89, 165);
-    }
-    
-    .categories-tree .collapse-indicator:not(.collapsed):after {
-      color: rgb(13, 89, 165);
-    }
-    
-    .checkbox input[type=&quot;
-    checkbox&quot;
-    ]:checked + label:before {
-      border-color: rgb(13, 89, 165);
-      background-color: rgb(13, 89, 165);
-    }
-    
-    .loader {
-      padding-bottom: 1rem;
-    }
-    
-    .loader-image {
-      border: 5px solid slategray;
-      border-top: 5px solid rgb(13, 89, 165);
-      border-radius: 50%;
-      width: 25px;
-      height: 25px;
-      margin-left: auto;
-      margin-right: auto;
-      animation: spin 2s linear infinite;
-    }
-    
-    @keyframes spin {
-      0% {
-        transform: rotate(0deg);
-      }
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-    
-    .colored-checkbox:checked + label:before {
-      background: rgb(13, 89, 165);
-    }
-    
-    .colored-checkbox:hover + label:before {
-      background: rgb(13, 89, 165);
-    }
-  </style>
-  <style type="text/css">
-    h1.kyklo-hte-header {
-      font-size: 5rem;
-      text-align: center;
-      margin: 45px 0;
-    }
-    
-    @media only screen and (max-width: 768px) {
-      h1.kyklo-hte-header {
-        font-size: 3rem;
-        text-align: center;
-        margin: 25px 0;
-      }
-    }
-    
-    @media only screen and (max-width: 320px) {
-      h1.kyklo-hte-header {
-        font-size: 2.5rem;
-        text-align: center;
-        margin: 20px 0;
-      }
-    }
-  </style>
-  <style type="text/css">
-    .grow img {
-      transition: all .2s ease-in-out;
-    }
-    
-    .grow:hover img {
-      transform: scale(1.1);
-    }
-    
-    .product-cell {
-      padding: 10px;
-    }
-    
-    .product-cell> a {
-      width: 100%;
-      white-space: normal;
-      background-color: white;
-      padding: 5px;
-    }
-    
-    .img-product {
-      height: 110px;
-      padding: 5px 0;
-    }
-    
-    .img-product img {
-      max-height: 100px;
-      margin: 0 auto;
-    }
-    
-    .range-name {
-      font-size: .9em;
-      font-weight: bold;
-      margin: 0;
-    }
-    
-    @media (max-width: 1279px) {
-      .range-name {
-        font-size: .85em;
-        font-weight: bold;
-        margin: 0;
-      }
-    }
-    
-    .standard-height {
-      height: 170px;
-    }
-    
-    .flex-center-vertically {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      height: 50px;
-    }
-  </style>
-  <link rel="shortcut icon" type="image/x-icon" href="/media/pictures/layout/favicon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/media/pictures/layout/favicon.png">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="https://media-library.kyklo.tech/widget/styles/kyklo-widgets-common-style.css" type="text/css" />
+    <link rel="stylesheet" href="https://media-library.kyklo.tech/widgets-common-assets/styles/bootstrap.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/media/styles/hexagons.css">
+    <link rel="stylesheet" type="text/css" href="/media/styles/custom.css">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <title>HTE Automation</title>
+    <!-- <link rel="stylesheet" media="all" href="https://shop.htetechnologies.com/assets/storefront/application-908cbf5bce79b04f692fad0de3974d15766822dd546e2a3beb4e5e2d691a6eb7.css"> -->
+    <link rel="stylesheet" media="all" href="/media/styles/kyklo-platform.css">
+    <link rel="stylesheet" media="all" href="/media/styles/kyklo-platform2.css">
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    <style type="text/css">
+        .top-bar {
+            background-color: rgb(13, 89, 165);
+        }
+        
+        .footer {
+            border-bottom-color: rgb(13, 89, 165);
+        }
+        
+        .btn-secondary,
+        .btn-sub-primary {
+            background-color: rgb(13, 89, 165) !important;
+            /* important to overwrite BS :hover, hovering effect is done by opacity */
+            border-color: rgb(13, 89, 165) !important;
+            /* important to overwrite BS :hover, hovering effect is done by opacity */
+        }
+        
+        .sidemenu .user-zone {
+            border-top-color: rgb(13, 89, 165);
+        }
+        
+        .sidemenu .btn-user-zone-arrow {
+            border-color: rgb(13, 89, 165);
+        }
+        
+        .plus-minus-input.highlighted.non-zero {
+            border-color: rgb(13, 89, 165);
+            background-color: rgb(13, 89, 165);
+        }
+        
+        .categories-tree .collapse-indicator:not(.collapsed):after {
+            color: rgb(13, 89, 165);
+        }
+        
+        .checkbox input[type=&quot;
+        checkbox&quot;
+        ]:checked + label:before {
+            border-color: rgb(13, 89, 165);
+            background-color: rgb(13, 89, 165);
+        }
+        
+        .loader {
+            padding-bottom: 1rem;
+        }
+        
+        .loader-image {
+            border: 5px solid slategray;
+            border-top: 5px solid rgb(13, 89, 165);
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            margin-left: auto;
+            margin-right: auto;
+            animation: spin 2s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        
+        .colored-checkbox:checked + label:before {
+            background: rgb(13, 89, 165);
+        }
+        
+        .colored-checkbox:hover + label:before {
+            background: rgb(13, 89, 165);
+        }
+    </style>
+    <style type="text/css">
+        h1.kyklo-hte-header {
+            font-size: 5rem;
+            text-align: center;
+            margin: 45px 0;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            h1.kyklo-hte-header {
+                font-size: 3rem;
+                text-align: center;
+                margin: 25px 0;
+            }
+        }
+        
+        @media only screen and (max-width: 320px) {
+            h1.kyklo-hte-header {
+                font-size: 2.5rem;
+                text-align: center;
+                margin: 20px 0;
+            }
+        }
+    </style>
+    <style type="text/css">
+        .grow img {
+            transition: all .2s ease-in-out;
+        }
+        
+        .grow:hover img {
+            transform: scale(1.1);
+        }
+        
+        .product-cell {
+            padding: 10px;
+        }
+        
+        .product-cell> a {
+            width: 100%;
+            white-space: normal;
+            background-color: white;
+            padding: 5px;
+        }
+        
+        .img-product {
+            height: 110px;
+            padding: 5px 0;
+        }
+        
+        .img-product img {
+            max-height: 100px;
+            margin: 0 auto;
+        }
+        
+        .range-name {
+            font-size: .9em;
+            font-weight: bold;
+            margin: 0;
+        }
+        
+        @media (max-width: 1279px) {
+            .range-name {
+                font-size: .85em;
+                font-weight: bold;
+                margin: 0;
+            }
+        }
+        
+        .standard-height {
+            height: 170px;
+        }
+        
+        .flex-center-vertically {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            height: 50px;
+        }
+    </style>
+    <link rel="shortcut icon" type="image/x-icon" href="/media/pictures/layout/favicon.png">
+    <link rel="apple-touch-icon" type="image/png" href="/media/pictures/layout/favicon.png">
 </head>
 
 <body data-default-locale="en" data-locale="en" data-gr-c-s-loaded="true">
-  <div class="layout-app">
-    <div class="header">
-      <div class="info-bar top-bar">
-        <div class="container">
-          <div class="action-bar hidden-sm-down">
-            <div class="secondary-items">
-              <!-- <div class="action-item btn-group btn-dropdown-secondary btn-dropdown-arrow btn-dropdown-smooth-shadow"><a class="dropdown-toggle text-uppercase" data-toggle="dropdown"><i class="icon icon-earth-white"></i>English (US)</a>
+    <div class="layout-app">
+        <div class="header">
+            <div class="info-bar top-bar">
+                <div class="container">
+                    <div class="action-bar hidden-sm-down">
+                        <div class="secondary-items">
+                            <!-- <div class="action-item btn-group btn-dropdown-secondary btn-dropdown-arrow btn-dropdown-smooth-shadow"><a class="dropdown-toggle text-uppercase" data-toggle="dropdown"><i class="icon icon-earth-white"></i>English (US)</a>
                 <div class="dropdown-menu"><a class="dropdown-item" href="https://shop.htetechnologies.com/?locale=en">English (US)</a></div>
               </div> -->
-              <div class="action-item">
-                <a class="contact-mail" href="mailto:websales@htetech.com">websales@htetech.com</a><a class="contact-phone" href="tel:800-444-4831">800-444-4831</a>
-              </div>
-              <div class="action-item hidden-md-down">
-                <a class="link" target="blank" href="https://www.htetechnologies.com/aboutus/corporate">About Us</a>
-              </div>
+                            <div class="action-item">
+                                <a class="contact-mail" href="mailto:websales@htetech.com">websales@htetech.com</a><a class="contact-phone" href="tel:800-444-4831">800-444-4831</a>
+                            </div>
+                            <div class="action-item hidden-md-down">
+                                <a class="link" target="blank" href="https://www.htetechnologies.com/aboutus/corporate">About Us</a>
+                            </div>
+                        </div>
+                        <div class="primary-items">
+                            <div class="action-item">
+                                <a class="contact-facebook" href="https://www.facebook.com/HTEAutomation/" target="_blank">Facebook</a>
+                                <a class="contact-twitter" href="https://twitter.com/HTE_Automation" target="_blank">Twitter</a>
+                                <a class="contact-linkedin" href="https://www.linkedin.com/company/htetechnologies/" target="_blank">LinkedIn</a>
+                                <a style="vertical-align: middle;display: inline-block;width: 18px;height: 18px;margin-left: 1.214rem;" href="https://www.instagram.com/hteautomation/" target="_blank"><i class="fab fa-instagram" style="font-size: 20px;"></i></a>
+                                <a style="vertical-align: middle;display: inline-block;width: 18px;height: 18px;margin-left: 1.214rem;" href="https://www.youtube.com/user/htetechnologies" target="_blank"><i class="fab fa-youtube" style="font-size: 20px;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="primary-items">
-              <div class="action-item">
-                <a class="contact-facebook" href="https://www.facebook.com/HTEAutomation/" target="_blank">Facebook</a>
-                <a class="contact-twitter" href="https://twitter.com/HTE_Automation" target="_blank">Twitter</a>
-                <a class="contact-linkedin" href="https://www.linkedin.com/company/htetechnologies/" target="_blank">LinkedIn</a>
-                <a style="vertical-align: middle;display: inline-block;width: 18px;height: 18px;margin-left: 1.214rem;" href="https://www.instagram.com/hteautomation/" target="_blank"><i class="fab fa-instagram" style="font-size: 20px;"></i></a>
-                <a style="vertical-align: middle;display: inline-block;width: 18px;height: 18px;margin-left: 1.214rem;" href="https://www.youtube.com/user/htetechnologies" target="_blank"><i class="fab fa-youtube" style="font-size: 20px;"></i></a>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-    <div class="search-bar">
-      <div class="container">
-        <div class="inner">
-          <div class="sideitem hidden-md-up"></div>
-          <a class="page-name hidden-sm-down" href="/"><img class="logo img-fluid" src="/media/pictures/layout/logo-hte-abrasive-blasting.png" alt="HTE automation logo"></a>
-          <h1 class="page-name hidden-md-up">HTE</h1>
-          <div class="search">
-            <form class="form.form-full-width" action="https://shop.htetechnologies.com/products" accept-charset="UTF-8" method="get">
-              <input name="utf8" type="hidden" value="✓">
-              <div class="form-group input-with-btn with-btn-inside-md-up">
-                <div class="typeahead-wrapper">
-                  <div class="typeahead" data-clickable="true" data-url="/products.json" data-wrapper-class="products-typeahead-results"><span class="twitter-typeahead" style="position: relative; display: inline-block;"><input class="input form-control tt-input" name="search" placeholder="Search Products" type="text" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: montserrat, &quot;helvetica neue&quot;, Helvetica, Arial, sans-serif; font-size: 12.6px; font-style: normal; font-variant: normal; font-weight: 100; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><div class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;"><div class="products-typeahead-results products-typeahead-results-0"></div></div></span>
+        <div class="search-bar">
+            <div class="container">
+                <div class="inner">
+                    <div class="sideitem hidden-md-up"></div>
+                    <a class="page-name hidden-sm-down" href="/"><img class="logo img-fluid" src="/media/pictures/layout/logo-hte-abrasive-blasting.png" alt="HTE automation logo"></a>
+                    <h1 class="page-name hidden-md-up">HTE</h1>
+                    <div class="search">
+                        <form class="form.form-full-width" action="https://shop.htetechnologies.com/products" accept-charset="UTF-8" method="get">
+                            <input name="utf8" type="hidden" value="✓">
+                            <div class="form-group input-with-btn with-btn-inside-md-up">
+                                <div class="typeahead-wrapper">
+                                    <div class="typeahead" data-clickable="true" data-url="/products.json" data-wrapper-class="products-typeahead-results"><span class="twitter-typeahead" style="position: relative; display: inline-block;"><input class="input form-control tt-input" name="search" placeholder="Search Products" type="text" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: montserrat, &quot;helvetica neue&quot;, Helvetica, Arial, sans-serif; font-size: 12.6px; font-style: normal; font-variant: normal; font-weight: 100; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><div class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;"><div class="products-typeahead-results products-typeahead-results-0"></div></div></span>
 
-                  </div>
-                  <div class="overlay"></div>
+                                    </div>
+                                    <div class="overlay"></div>
+                                </div>
+                                <button class="btn btn-secondary btn-icon" type="submit"><i class="icon icon-magnifying-glass-white hidden-md-up"></i><span class="hidden-sm-down">Search</span></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="sideitem"><a class="btn btn-sub-secondary btn-cart" href="https://shop.htetechnologies.com/cart/edit"><i class="icon icon-shopping-cart-white"></i></a>
+                        <div class="side-alert alert alert-success fade cart-item-added-side-alert">
+                            <button class="close" data-dismiss="alert" type="button"><span class="icon icon-close-white"></span></button>
+                            <div class="side-alert-content"></div>Added to Cart</div>
+                    </div>
                 </div>
-                <button class="btn btn-secondary btn-icon" type="submit"><i class="icon icon-magnifying-glass-white hidden-md-up"></i><span class="hidden-sm-down">Search</span></button>
-              </div>
-            </form>
-          </div>
-          <div class="sideitem"><a class="btn btn-sub-secondary btn-cart" href="https://shop.htetechnologies.com/cart/edit"><i class="icon icon-shopping-cart-white"></i></a>
-            <div class="side-alert alert alert-success fade cart-item-added-side-alert">
-              <button class="close" data-dismiss="alert" type="button"><span class="icon icon-close-white"></span></button>
-              <div class="side-alert-content"></div>Added to Cart</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="custom-area-homepage-1">
-      <img src="/media/pictures/layout/header-AbrasiveBlastHome.png" style="width:100%;">
-      <div class="container">
-        <h1 class="kyklo-hte-header">Welcome to<br> the <strong>HTE Automation Webstore</strong></h1>
-        <div class="container text-center">
-          <span id="index-product-categories" class="widget-anchor"></span>
-          <div class="row">
-            <div class="col-xs-12 col-sm-2 col-md-1 col-xl-2"></div>
-            <div class="col-xs-6 col-sm-4 col-md-2 col-xl-2">
-              <img src="/media/pictures/layout/hte-sticker-fa-automation.png" class="img-fluid">
             </div>
-            <div class="col-md-6 col-xl-4 hidden-sm-down">
-              <div class="row">
-                <div class="col-xs-12 col-md-12">
-                  <h4 class="text-center">VIEW BY</h4>
-                  <hr style="height:3px; background-color: rgb(13,89,165);">
-                </div>
-              </div>
-              <div class="row">
-                <ul class="nav col-xs-12 col-md-12" role="tablist">
-                  <a href="#tabs-brands" class="hb-md-margin nav-link active" data-toggle="tab" role="tab" style="outline:0;">
-                    <span class="hb hb-md inv hb-github-inv">
+        </div>
+        <div class="custom-area-homepage-1">
+            <img src="/media/pictures/layout/header-AbrasiveBlastHome.png" style="width:100%;">
+            <div class="container">
+                <h1 class="kyklo-hte-header">Welcome to<br> the <strong>HTE Automation Webstore</strong></h1>
+                <div class="container text-center">
+                    <span id="index-product-categories" class="widget-anchor"></span>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-1 col-xl-2"></div>
+                        <div class="col-xs-6 col-sm-4 col-md-2 col-xl-2">
+                            <img src="/media/pictures/layout/hte-sticker-fa-automation.png" class="img-fluid">
+                        </div>
+                        <div class="col-md-6 col-xl-4 hidden-sm-down">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-12">
+                                    <h4 class="text-center">VIEW BY</h4>
+                                    <hr style="height:3px; background-color: rgb(13,89,165);">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <ul class="nav col-xs-12 col-md-12" role="tablist">
+                                    <a href="#tabs-brands" class="hb-md-margin nav-link active" data-toggle="tab" role="tab" style="outline:0;">
+                                        <span class="hb hb-md inv hb-github-inv">
                     <p class ="text-center-overflow" style="font-size: 1.75rem;">Brands</p>
                   </span>
-                  </a>
-                  <a href="#tabs-category" class="hb-md-margin nav-link" data-toggle="tab" role="tab" style="outline:0;">
-                    <span class="hb hb-md inv hb-github-inv">
+                                    </a>
+                                    <a href="#tabs-category" class="hb-md-margin nav-link" data-toggle="tab" role="tab" style="outline:0;">
+                                        <span class="hb hb-md inv hb-github-inv">
                     <p class ="text-center-overflow" style="font-size: 1.75rem;">Categories</p>
                   </span>
-                  </a>
-                </ul>
-              </div>
-            </div>
-            <a class="col-xs-6 col-sm-4 col-md-2 col-xl-2" href="https://shop.htetechnologies.com/buyers/sign_up">
-              <img src="/media/pictures/layout/hte-sticker-signup.png" class="img-fluid">
-            </a>
-          </div>
-          <div class="row hidden-md-up">
-            <div class="col-xs-12 col-sm-2"></div>
-            <div class="col-xs-12 col-sm-8">
-              <div class="row">
-                <div class="col-xs-12 col-md-12">
-                  <h4 class="text-center">VIEW BY</h4>
-                  <hr style="height:3px; background-color: rgb(13,89,165);">
-                </div>
-              </div>
-              <div class="row">
-                <ul class="nav col-xs-12 col-md-12" role="tablist">
-                  <a href="#tabs-brands" class="hb-md-margin nav-link active" data-toggle="tab" role="tab" style="outline:0;">
-                    <span class="hb hb-md inv hb-github-inv">
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                        <a class="col-xs-6 col-sm-4 col-md-2 col-xl-2" href="https://shop.htetechnologies.com/buyers/sign_up">
+                            <img src="/media/pictures/layout/hte-sticker-signup.png" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="row hidden-md-up">
+                        <div class="col-xs-12 col-sm-2"></div>
+                        <div class="col-xs-12 col-sm-8">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-12">
+                                    <h4 class="text-center">VIEW BY</h4>
+                                    <hr style="height:3px; background-color: rgb(13,89,165);">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <ul class="nav col-xs-12 col-md-12" role="tablist">
+                                    <a href="#tabs-brands" class="hb-md-margin nav-link active" data-toggle="tab" role="tab" style="outline:0;">
+                                        <span class="hb hb-md inv hb-github-inv">
                     <p class ="text-center-overflow" style="font-size: 1.75rem;">Brands</p>
                   </span>
-                  </a>
-                  <a href="#tabs-category" class="hb-md-margin nav-link" data-toggle="tab" role="tab" style="outline:0;">
-                    <span class="hb hb-md inv hb-github-inv">
+                                    </a>
+                                    <a href="#tabs-category" class="hb-md-margin nav-link" data-toggle="tab" role="tab" style="outline:0;">
+                                        <span class="hb hb-md inv hb-github-inv">
                     <p class ="text-center-overflow" style="font-size: 1.75rem;">Categories</p>
                   </span>
-                  </a>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="main container">
-        <div class="page-content">
-          <div class="rp-container container">
-            <!-- Tab panes -->
-            <div class="tab-content">
-              <div class="tab-pane active" id="tabs-brands" role="tabpanel">
-                <div class="row m-t-2" style="padding-bottom: 1rem;">
-                  <a class="col-md-4 col-xs-6" href="#section-hte" style="padding:10px;">
-                    <div class="shadow-sm btn" style="width: 100%;white-space: normal;">
-                      <img style="margin-left: auto;margin-right:auto;" src="/media/pictures/layout/logo-hte-abrasive-blasting2.png" alt="hte" class="img-fluid">
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                  </a>
-                  <a class="col-md-4 col-xs-6" href="#section-clemco" style="padding:10px;">
-                    <div class="shadow-sm btn" style="width: 100%;white-space: normal;">
-                      <img style="margin-left: auto;margin-right:auto;" src="/media/pictures/layout/logo-clemco.png" alt="clemco" class="img-fluid">
-                    </div>
-                  </a>
                 </div>
-                <hr style="height:3px; background-color: rgb(13,89,165);">
-                <span id="section-hte" class="widget-anchor"></span>
-        <img style="max-width: 130px;" src="/media/pictures/layout/logo-hte-abrasive-blasting2.png" class="img-fluid">
-        <h3 class="m-t-2">HTE abrasive blast solutions</h3>
-        <h4 class="m-t-2">Abrasive blasting</h4>
-        <div class="row">
-                  <div class="col-md-3 col-xs-6 product-cell">
-                    <a href="https://shop.htetechnologies.com/brands/hte-abrasive-blast-solutions?utf8=%E2%9C%93&search=panel+part" class="btn shadow-medium standard-height" target="_blank">
-                      <div class="img-product grow">
-                        <img src="/media/pictures/products/01-hte-panel-parts.png" alt="Panel parts">
-                      </div>
-                      <div class="flex-center-vertically">
-                        <p class="range-name">Panel parts</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-md-3 col-xs-6 product-cell">
-                    <a href="https://shop.htetechnologies.com/brands/hte-abrasive-blast-solutions/categories/692-abrasive-blast-guns-nozzles" class="btn shadow-medium standard-height" target="_blank">
-                      <div class="img-product grow">
-                        <img src="/media/pictures/products/02-hte-guns-nozzles.png" alt="Guns & nozzles">
-                      </div>
-                      <div class="flex-center-vertically">
-                        <p class="range-name">Guns & nozzles</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-md-3 col-xs-6 product-cell">
-                    <a href="https://shop.htetechnologies.com/brands/hte-abrasive-blast-solutions/categories/693-abrasive-blast-connectors-fittings" class="btn shadow-medium standard-height" target="_blank">
-                      <div class="img-product grow">
-                        <img src="/media/pictures/products/03-hte-connectors-fittings.png" alt="Connectors & fittings">
-                      </div>
-                      <div class="flex-center-vertically">
-                        <p class="range-name">Connectors & fittings</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-md-3 col-xs-6 product-cell">
-                    <a href="https://shop.htetechnologies.com/brands/hte-abrasive-blast-solutions/categories/694-abrasive-blast-hoses" class="btn shadow-medium standard-height" target="_blank">
-                      <div class="img-product grow">
-                        <img src="/media/pictures/products/04-hte-hoses.png" alt="Hoses">
-                      </div>
-                      <div class="flex-center-vertically">
-                        <p class="range-name">Hoses</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-md-3 col-xs-6 product-cell">
-                    <a href="https://shop.htetechnologies.com/brands/hte-abrasive-blast-solutions/categories/695-abrasive-blast-filters" class="btn shadow-medium standard-height" target="_blank">
-                      <div class="img-product grow">
-                        <img src="/media/pictures/products/05-hte-filters.png" alt="Filters">
-                      </div>
-                      <div class="flex-center-vertically">
-                        <p class="range-name">Filters</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-md-3 col-xs-6 product-cell">
-                    <a href="https://shop.htetechnologies.com/brands/hte-abrasive-blast-solutions/categories/697-abrasive-blast-media" class="btn shadow-medium standard-height" target="_blank">
-                      <div class="img-product grow">
-                        <img src="/media/pictures/products/06-hte-media.png" alt="Media">
-                      </div>
-                      <div class="flex-center-vertically">
-                        <p class="range-name">Media</p>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-        <h4 class="m-t-2">Personal Protection equipment (PPE)</h4>
-        <div class="row">
-                  <div class="col-md-3 col-xs-6 product-cell">
-                    <a href="https://shop.htetechnologies.com/brands/hte-abrasive-blast-solutions/categories/413-personal-protection-equipment-ppe" class="btn shadow-medium standard-height" target="_blank">
-                      <div class="img-product grow">
-                        <img src="/media/pictures/products/07-hte-personal-protection-equipment.png" alt="ppe">
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <hr style="height:3px; background-color: rgb(13,89,165);">
-                <img style="max-width: 130px;" src="/media/pictures/layout/logo-clemco.png" class="img-fluid">
-        <h3 class="m-t-2">CLEMCO Industries</h3>
-        <h4 class="m-t-2">Abarasive blasting</h4>
-        <div class="row">
-                  <div class="col-md-3 col-xs-6 product-cell">
-                    <a href="https://shop.htetechnologies.com/brands/clemco-industries/categories/691-abrasive-blast-cabinets" class="btn shadow-medium standard-height" target="_blank">
-                      <div class="img-product grow">
-                        <img src="/media/pictures/products/08-clemco-panel-parts.png" alt="Panel parts">
-                      </div>
-                      <div class="flex-center-vertically">
-                        <p class="range-name">Panel parts</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-md-3 col-xs-6 product-cell">
-                    <a href="https://shop.htetechnologies.com/brands/clemco-industries/categories/692-abrasive-blast-guns-nozzles" class="btn shadow-medium standard-height" target="_blank">
-                      <div class="img-product grow">
-                        <img src="/media/pictures/products/09-clemco-guns-nozzles.png" alt="Guns & nozzles">
-                      </div>
-                      <div class="flex-center-vertically">
-                        <p class="range-name">Guns & nozzles</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-md-3 col-xs-6 product-cell">
-                    <a href="https://shop.htetechnologies.com/brands/clemco-industries/categories/693-abrasive-blast-connectors-fittings" class="btn shadow-medium standard-height" target="_blank">
-                      <div class="img-product grow">
-                        <img src="/media/pictures/products/10-clemco-connectors-fittings.png" alt="Connectors & fittings">
-                      </div>
-                      <div class="flex-center-vertically">
-                        <p class="range-name">Connectors & fittings</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-md-3 col-xs-6 product-cell">
-                    <a href="https://shop.htetechnologies.com/brands/clemco-industries/categories/694-abrasive-blast-hoses" class="btn shadow-medium standard-height" target="_blank">
-                      <div class="img-product grow">
-                        <img src="/media/pictures/products/11-clemco-hoses.png" alt="Hoses">
-                      </div>
-                      <div class="flex-center-vertically">
-                        <p class="range-name">Hoses</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-md-3 col-xs-6 product-cell">
-                    <a href="https://shop.htetechnologies.com/brands/clemco-industries/categories/695-abrasive-blast-filters" class="btn shadow-medium standard-height" target="_blank">
-                      <div class="img-product grow">
-                        <img src="/media/pictures/products/12-clemco-filters.png" alt="Filters">
-                      </div>
-                      <div class="flex-center-vertically">
-                        <p class="range-name">Filters</p>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-        <h4 class="m-t-2">Personal Protection equipment (PPE)</h4>
-        <div class="row">
-                  <div class="col-md-3 col-xs-6 product-cell">
-                    <a href="https://shop.htetechnologies.com/brands/clemco-industries/categories/413-personal-protection-equipment-ppe" class="btn shadow-medium standard-height" target="_blank">
-                      <div class="img-product grow">
-                        <img src="/media/pictures/products/13-clemco-personal-protection-equipment.png" alt="ppe">
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                </div>
-                  <!-- <category section> -->
-                </div>
-                <div class="tab-pane" id="tabs-category" role="tabpanel">
-                  <span id="index-product-categories" class="widget-anchor"></span>
-              </div>
             </div>
-          </div>
+            <div class="main container">
+                <div class="page-content">
+                    <div class="rp-container container">
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tabs-brands" role="tabpanel">
+                                <div class="row m-t-2" style="padding-bottom: 1rem;">
+                                    <a class="col-md-4 col-xs-6" href="#section-hte" style="padding:10px;">
+                                        <div class="shadow-sm btn" style="width: 100%;white-space: normal;">
+                                            <img style="margin-left: auto;margin-right:auto;" src="/media/pictures/layout/logo-hte-abrasive-blasting2.png" alt="hte" class="img-fluid">
+                                        </div>
+                                    </a>
+                                    <a class="col-md-4 col-xs-6" href="#section-clemco" style="padding:10px;">
+                                        <div class="shadow-sm btn" style="width: 100%;white-space: normal;">
+                                            <img style="margin-left: auto;margin-right:auto;" src="/media/pictures/layout/logo-clemco.png" alt="clemco" class="img-fluid">
+                                        </div>
+                                    </a>
+                                </div>
+                                <hr style="height:3px; background-color: rgb(13,89,165);">
+                                <span id="section-hte" class="widget-anchor"></span>
+                                <img style="max-width: 130px;" src="/media/pictures/layout/logo-hte-abrasive-blasting2.png" class="img-fluid">
+                                <h3 class="m-t-2">HTE abrasive blast solutions</h3>
+                                <h4 class="m-t-2">Abrasive blasting</h4>
+                                <div class="row">
+                                    <div class="col-md-3 col-xs-6 product-cell">
+                                        <a href="https://shop.htetechnologies.com/brands/hte-abrasive-blast-solutions?utf8=%E2%9C%93&search=panel+part" class="btn shadow-medium standard-height" target="_blank">
+                                            <div class="img-product grow">
+                                                <img src="/media/pictures/products/01-hte-panel-parts.png" alt="Panel parts">
+                                            </div>
+                                            <div class="flex-center-vertically">
+                                                <p class="range-name">Panel parts</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3 col-xs-6 product-cell">
+                                        <a href="https://shop.htetechnologies.com/brands/hte-abrasive-blast-solutions/categories/692-abrasive-blast-guns-nozzles" class="btn shadow-medium standard-height" target="_blank">
+                                            <div class="img-product grow">
+                                                <img src="/media/pictures/products/02-hte-guns-nozzles.png" alt="Guns & nozzles">
+                                            </div>
+                                            <div class="flex-center-vertically">
+                                                <p class="range-name">Guns & nozzles</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3 col-xs-6 product-cell">
+                                        <a href="https://shop.htetechnologies.com/brands/hte-abrasive-blast-solutions/categories/693-abrasive-blast-connectors-fittings" class="btn shadow-medium standard-height" target="_blank">
+                                            <div class="img-product grow">
+                                                <img src="/media/pictures/products/03-hte-connectors-fittings.png" alt="Connectors & fittings">
+                                            </div>
+                                            <div class="flex-center-vertically">
+                                                <p class="range-name">Connectors & fittings</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3 col-xs-6 product-cell">
+                                        <a href="https://shop.htetechnologies.com/brands/hte-abrasive-blast-solutions/categories/694-abrasive-blast-hoses" class="btn shadow-medium standard-height" target="_blank">
+                                            <div class="img-product grow">
+                                                <img src="/media/pictures/products/04-hte-hoses.png" alt="Hoses">
+                                            </div>
+                                            <div class="flex-center-vertically">
+                                                <p class="range-name">Hoses</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3 col-xs-6 product-cell">
+                                        <a href="https://shop.htetechnologies.com/brands/hte-abrasive-blast-solutions/categories/695-abrasive-blast-filters" class="btn shadow-medium standard-height" target="_blank">
+                                            <div class="img-product grow">
+                                                <img src="/media/pictures/products/05-hte-filters.png" alt="Filters">
+                                            </div>
+                                            <div class="flex-center-vertically">
+                                                <p class="range-name">Filters</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3 col-xs-6 product-cell">
+                                        <a href="https://shop.htetechnologies.com/brands/hte-abrasive-blast-solutions/categories/697-abrasive-blast-media" class="btn shadow-medium standard-height" target="_blank">
+                                            <div class="img-product grow">
+                                                <img src="/media/pictures/products/06-hte-media.png" alt="Media">
+                                            </div>
+                                            <div class="flex-center-vertically">
+                                                <p class="range-name">Media</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h4 class="m-t-2">Personal Protection equipment (PPE)</h4>
+                                <div class="row">
+                                    <div class="col-md-3 col-xs-6 product-cell">
+                                        <a href="https://shop.htetechnologies.com/brands/hte-abrasive-blast-solutions/categories/413-personal-protection-equipment-ppe" class="btn shadow-medium standard-height" target="_blank">
+                                            <div class="img-product grow">
+                                                <img src="/media/pictures/products/07-hte-personal-protection-equipment.png" alt="ppe">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <hr style="height:3px; background-color: rgb(13,89,165);">
+                                <img style="max-width: 130px;" src="/media/pictures/layout/logo-clemco.png" class="img-fluid">
+                                <h3 class="m-t-2">CLEMCO Industries</h3>
+                                <h4 class="m-t-2">Abarasive blasting</h4>
+                                <div class="row">
+                                    <div class="col-md-3 col-xs-6 product-cell">
+                                        <a href="https://shop.htetechnologies.com/brands/clemco-industries/categories/691-abrasive-blast-cabinets" class="btn shadow-medium standard-height" target="_blank">
+                                            <div class="img-product grow">
+                                                <img src="/media/pictures/products/08-clemco-panel-parts.png" alt="Panel parts">
+                                            </div>
+                                            <div class="flex-center-vertically">
+                                                <p class="range-name">Panel parts</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3 col-xs-6 product-cell">
+                                        <a href="https://shop.htetechnologies.com/brands/clemco-industries/categories/692-abrasive-blast-guns-nozzles" class="btn shadow-medium standard-height" target="_blank">
+                                            <div class="img-product grow">
+                                                <img src="/media/pictures/products/09-clemco-guns-nozzles.png" alt="Guns & nozzles">
+                                            </div>
+                                            <div class="flex-center-vertically">
+                                                <p class="range-name">Guns & nozzles</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3 col-xs-6 product-cell">
+                                        <a href="https://shop.htetechnologies.com/brands/clemco-industries/categories/693-abrasive-blast-connectors-fittings" class="btn shadow-medium standard-height" target="_blank">
+                                            <div class="img-product grow">
+                                                <img src="/media/pictures/products/10-clemco-connectors-fittings.png" alt="Connectors & fittings">
+                                            </div>
+                                            <div class="flex-center-vertically">
+                                                <p class="range-name">Connectors & fittings</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3 col-xs-6 product-cell">
+                                        <a href="https://shop.htetechnologies.com/brands/clemco-industries/categories/694-abrasive-blast-hoses" class="btn shadow-medium standard-height" target="_blank">
+                                            <div class="img-product grow">
+                                                <img src="/media/pictures/products/11-clemco-hoses.png" alt="Hoses">
+                                            </div>
+                                            <div class="flex-center-vertically">
+                                                <p class="range-name">Hoses</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3 col-xs-6 product-cell">
+                                        <a href="https://shop.htetechnologies.com/brands/clemco-industries/categories/695-abrasive-blast-filters" class="btn shadow-medium standard-height" target="_blank">
+                                            <div class="img-product grow">
+                                                <img src="/media/pictures/products/12-clemco-filters.png" alt="Filters">
+                                            </div>
+                                            <div class="flex-center-vertically">
+                                                <p class="range-name">Filters</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h4 class="m-t-2">Personal Protection equipment (PPE)</h4>
+                                <div class="row">
+                                    <div class="col-md-3 col-xs-6 product-cell">
+                                        <a href="https://shop.htetechnologies.com/brands/clemco-industries/categories/413-personal-protection-equipment-ppe" class="btn shadow-medium standard-height" target="_blank">
+                                            <div class="img-product grow">
+                                                <img src="/media/pictures/products/13-clemco-personal-protection-equipment.png" alt="ppe">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <category section> -->
+                        </div>
+                        <div class="tab-pane" id="tabs-category" role="tabpanel">
+                            <span id="index-product-categories" class="widget-anchor"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="footer">
-        <div class="container footer-wrapper">
-          <a class="logo" href="http://www.kyklo.co/"></a>
-          <div class="links">
-            <div class="link statutory"></div>
-          </div>
-        </div>
-        <div class="info-bar bottom-bar">
-          <div class="action-bar container">
-            <div class="secondary-items hidden-sm-down">
+        <div class="footer">
+            <div class="container footer-wrapper">
+                <a class="logo" href="http://www.kyklo.co/"></a>
+                <div class="links">
+                    <div class="link statutory"></div>
+                </div>
+            </div>
+            <div class="info-bar bottom-bar">
+                <div class="action-bar container">
+                    <div class="secondary-items hidden-sm-down">
 
-              <div class="action-item">
-                <a href="https://www.htetechnologies.com" target="_blank">Corporate</a>
-              </div>
-              <div class="action-item">
-                <a href="https://www.hteautomation.com" target="_blank">Automation</a>
-              </div>
-              <div class="action-item">
-                <a href="https://www.htecompressedair.com" target="_blank">Compressed Air Solutions</a>
-              </div>
-              <div class="action-item">
-                <a href="https://www.hteabrasiveblast.com" target="_blank">Abrasive Blast Solutions</a>
-              </div>
+                        <div class="action-item">
+                            <a href="https://www.htetechnologies.com" target="_blank">Corporate</a>
+                        </div>
+                        <div class="action-item">
+                            <a href="https://www.hteautomation.com" target="_blank">Automation</a>
+                        </div>
+                        <div class="action-item">
+                            <a href="https://www.htecompressedair.com" target="_blank">Compressed Air Solutions</a>
+                        </div>
+                        <div class="action-item">
+                            <a href="https://www.hteabrasiveblast.com" target="_blank">Abrasive Blast Solutions</a>
+                        </div>
+                    </div>
+                    <div class="secondary-items hidden-md-up">
+                        <ul style="text-align: center;list-style: none;padding: 0;">
+                            <li style="margin:5px 0;"><a href="https://www.htetechnologies.com" target="_blank">Corporate</a></li>
+                            <li style="margin:5px 0;"><a href="https://www.hteautomation.com" target="_blank">Automation</a></li>
+                            <li style="margin:5px 0;"><a href="https://www.htecompressedair.com" target="_blank">Compressed Air Solutions</a></li>
+                            <li style="margin:5px 0;"><a href="https://www.hteabrasiveblast.com" target="_blank">Abrasive Blast Solutions</a></li>
+                        </ul>
+                    </div>
+                    <div class="primary-items">
+                        <div class="action-item">
+                            <a>© 2020 - HTE Technologies. All rights reserved.</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="secondary-items hidden-md-up">
-              <ul style="text-align: center;list-style: none;padding: 0;">
-                <li style="margin:5px 0;"><a href="https://www.htetechnologies.com" target="_blank">Corporate</a></li>
-                <li style="margin:5px 0;"><a href="https://www.hteautomation.com" target="_blank">Automation</a></li>
-                <li style="margin:5px 0;"><a href="https://www.htecompressedair.com" target="_blank">Compressed Air Solutions</a></li>
-                <li style="margin:5px 0;"><a href="https://www.hteabrasiveblast.com" target="_blank">Abrasive Blast Solutions</a></li>
-              </ul>
-            </div>
-            <div class="primary-items">
-              <div class="action-item">
-                <a>© 2020 - HTE Technologies. All rights reserved.</a>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
-  <script src="/media/scripts/platform-jquery.js"></script>
-  <script src="/media/scripts/platform.js"></script>
-  <script defer="" type="text/javascript" src="/media/scripts/script.js"></script>
-  <script src="/media/scripts/hexagons.min.js"></script>
+    <script src="/media/scripts/platform-jquery.js"></script>
+    <script src="/media/scripts/platform.js"></script>
+    <script defer="" type="text/javascript" src="/media/scripts/script.js"></script>
+    <script src="/media/scripts/hexagons.min.js"></script>
 </body>
 
 </html>
